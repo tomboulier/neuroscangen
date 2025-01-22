@@ -1,10 +1,4 @@
-from dataclasses import dataclass
-
-
-@dataclass
-class BrainScan:
-    def __init__(self):
-        pass
+from neuroscangen.entities.brain_scan import BrainScan
 
 
 class GenerateScan:
