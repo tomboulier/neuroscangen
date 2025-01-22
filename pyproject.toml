@@ -28,6 +28,9 @@ build-backend = "setuptools.build_meta"
 [dependency-groups]
 dev = [
     "deptry>=0.22.0",
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.5.50",
+    "mkdocstrings>=0.27.0",
     "mypy>=1.14.1",
     "pre-commit>=4.1.0",
     "pytest>=8.3.4",
