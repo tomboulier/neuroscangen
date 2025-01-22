@@ -15,8 +15,3 @@ repos:
       - id: ruff # Run ruff to lint your code
         args: [--exit-non-zero-on-fix]
       - id: ruff-format # Run ruff to format your code
-
-  - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: "v3.0.3"
-    hooks:
-      - id: prettier # prettier is a formatter for JavaScript, TypeScript, CSS, Markdown, JSON, GraphQL, YAML, HTML, Vue, and Angular
