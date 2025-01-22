@@ -1,7 +1,7 @@
 .PHONY: install
 install: ## Install the virtual environment
 	@echo "🚀 Creating virtual environment using uv"
-	@uv venv -d dev
+	@uv venv
 	@uv sync
 
 .PHONY: check
