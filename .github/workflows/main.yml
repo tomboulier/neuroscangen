@@ -47,6 +47,9 @@ jobs:
       - name: Run tests
         run: make test
 
+      - name: Validate codecov configuration
+        run: curl -sSL --fail-with-body --data-binary @codecov.yaml https://codecov.io/validate
+
       - name: Upload results to Codecov
         uses: codecov/codecov-action@v5
         with:
