@@ -1,8 +1,8 @@
 .PHONY: install
-install: ## Install the virtual environment and install the pre-commit hooks
+install: ## Install the virtual environment
 	@echo "🚀 Creating virtual environment using uv"
+	@uv venv -d dev
 	@uv sync
-	@uv run pre-commit install
 
 .PHONY: check
 check: ## Run code quality tools.
@@ -11,7 +11,7 @@ check: ## Run code quality tools.
 	@echo "🚀 Linting code: Running pre-commit"
 	@uv run pre-commit run -a
 	@echo "🚀 Static type checking: Running mypy"
-	@uv run mypy
+	@uv run mypy .
 	@echo "🚀 Checking for obsolete dependencies: Running deptry"
 	@uv run deptry .
 

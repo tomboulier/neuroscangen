@@ -24,3 +24,10 @@ Repository = "https://github.com/tomboulier/neuroscangen"
 [build-system]
 requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "deptry>=0.22.0",
+    "mypy>=1.14.1",
+    "pre-commit>=4.1.0",
+]
