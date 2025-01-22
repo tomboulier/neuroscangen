@@ -1,6 +1,6 @@
 [project]
 name = "neuroscangen"
-version = "0.0.1"
+version = "0.0.2"
 description = "Generative AI with brain CT-scans."
 authors = [{ name = "Thomas Boulier", email = "tboulier@chu-grenoble.fr" }]
 readme = "README.md"
