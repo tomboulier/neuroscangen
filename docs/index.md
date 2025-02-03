@@ -5,4 +5,4 @@
 [![Commit activity](https://img.shields.io/github/commit-activity/m/tomboulier/neuroscangen)](https://img.shields.io/github/commit-activity/m/tomboulier/neuroscangen)
 [![License](https://img.shields.io/github/license/tomboulier/neuroscangen)](https://img.shields.io/github/license/tomboulier/neuroscangen)
 
-ative AI with brain CT-scans.
+Generative AI with brain CT-scans.
