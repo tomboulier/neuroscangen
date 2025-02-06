@@ -1,7 +1,10 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+import numpy as np
 
 
 @dataclass
 class BrainScan:
-    def __init__(self):
-        pass
+    values: np.ndarray = field(default_factory=lambda: np.empty((0, 0, 0)))
+
+    def to_numpy_array(self) -> np.ndarray:
+        return self.values
