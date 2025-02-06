@@ -1,4 +1,4 @@
-from neuroscangen.entities.brain_scan import BrainScan
+from ..entities.brain_scan import BrainScan
 
 
 class GenerateScan:
