@@ -40,3 +40,6 @@ dev = [
     "pytest>=8.3.4",
     "pytest-cov>=6.0.0",
 ]
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules --doctest-report ndiff"
